@@ -468,6 +468,7 @@ Particle.prototype = (function(o) {
 
 
     // Start Update
+
     gravities.push(new GravityPoint(this.w /2, this.h / 2, G_POINT_RADIUS, {
         particles: particles,
         gravities: gravities
